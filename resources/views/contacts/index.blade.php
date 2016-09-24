@@ -15,7 +15,7 @@
 			<h1>All Contacts</h1>
 
 			@endif
-				 <form method="POST" action="search">
+				 <form method="POST" action="/contacts/search">
 					{{ csrf_field() }}
 						<div class="form-group">
 								<input name="searchterms" type="text"></input>
